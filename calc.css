@@ -22,6 +22,7 @@ h1 {
   height: 40px;
   font-size: large;
   text-align: right;
+  color: grey;
   border-bottom:solid;
   border-bottom: width: 10px;
   background-color: #afc195;
