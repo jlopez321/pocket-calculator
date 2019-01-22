@@ -54,3 +54,6 @@ function pushToDis(){
   finalStr = outStr.join('');
   document.getElementById('displayscreen').value = finalStr;
 }
+function (percentage){
+  numberArray[numberArray.legnth -1] = (numberArray[numberArray.legnth -1] / 100)
+}
