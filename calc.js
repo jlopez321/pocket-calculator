@@ -55,5 +55,5 @@ function pushToDis(){
   document.getElementById('displayscreen').value = finalStr;
 }
 function percent(){
-  numberArray[numberArray.legnth -1] = (numberArray[numberArray.legnth -1] / 100)
+  numberArray[pos] = (numberArray[pos] / 100)
 }
