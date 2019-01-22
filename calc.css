@@ -1,0 +1,53 @@
+body {
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: url("pic.jpg");
+}
+
+h1 {
+  color: black;
+  font-size: 100px;
+}
+
+.display{
+  border:solid;
+  border-radius: 5px;
+  width:23.5%;
+  background-color:grey;
+  margin: auto;
+}
+
+.displayscreen {
+  width: 290px;
+  height: 40px;
+  font-size: large;
+  text-align: right;
+  border-bottom:solid;
+  border-bottom: width: 10px;
+  background-color: #afc195;
+  border-right: width: 10px;
+  border-right: black;
+}
+
+button {
+  margin: 5px;
+  width: 60px;
+  height: 40px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  border-style: solid;
+border-color: black;
+}
+
+.box {
+background: #B2beb5
+margin: 50px;
+height:280px;
+width: 300px;
+}
+
+.sec {
+  margin: 5px;
+  width: 100px;
+  height: 60px;
+}
