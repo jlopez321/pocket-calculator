@@ -38,6 +38,12 @@ function equals(){
 function clears(){
   clearDat = true;
   numberOfNumbers = 0;
+  clearDat = false;
+  numberArray = ['0'];
+  symbolArray = [];
+  tmpNumStr = [];
+  pos = 0;
+  pushToDis()
 }
 function pushToDis(){
   let outStr = [];
@@ -56,4 +62,6 @@ function pushToDis(){
 }
 function percent(){
   numberArray[pos] = (numberArray[pos] / 100)
+  pushToDis()
 }
+  
